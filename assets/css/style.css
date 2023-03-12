@@ -1,0 +1,205 @@
+body {
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 20px;
+    color: #14110F;
+    background-color: #F3F3F4;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.cleaner {
+    clear: both;
+}
+
+header {
+    display: flex;
+}
+
+#meni {
+    width: 62vw;
+}
+
+.panel-meni {
+    width: 19vw;
+}
+
+#panel-meni-1 {
+    border-radius: 10% / 100% 0% 0%;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.07) inset;
+}
+
+#gore {
+    display: flex;
+    width: 100%;
+}
+
+.osnovne-informacije {
+    flex-grow: 1;
+    flex-basis: 0;
+}
+
+#dole-meni {
+    display: table;
+    margin: auto;
+    padding:  0px;
+}
+
+ul {
+    list-style: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+.informacije-centriranje {
+    font-size: 16px;
+    padding: 78.5px 0px 0px 0px;
+}
+
+.informacije-levo span{
+    float: left;
+}
+
+.informacije-levo a {
+    text-decoration: none;
+    color: #14110F;
+}
+
+.tekst-ikonice {
+    padding-top: 2px;
+}
+
+.informacije-desno a {
+    text-decoration: none;
+    color: #14110F;
+    float: right;
+    padding-top: 2px;
+}
+
+.informacije-desno span {
+    float: right;
+}
+
+.logo {
+    text-align: center;
+}
+
+.logo img {
+    width: 80px;
+    padding-top: 20px;
+}
+
+.logo h1 {
+    font-size: 16px;
+    margin: 0px auto;
+    color: #14110F;
+}
+
+.logo h2 {
+    font-size: 10px;
+    margin: 0px;
+    color: #14110F;
+    padding-bottom: 20px;
+}
+
+.logo a {
+    text-decoration: none;
+}
+
+.navigacija {
+    float: left;
+    padding: 20px 0px;
+}
+
+.navigacija a {
+    text-decoration: none;
+    text-align: center;
+    color: #14110F;
+    padding: 20px 30px;
+}
+
+.linkovi-nav-meni a {
+    transition: 400ms;
+}
+
+.linkovi-nav-meni a:hover {
+    color: #efa94d;
+}
+
+.slika-pozadina {
+    text-align: center;
+    background: url(../img/clay-court.jpg);
+    height: 200px;
+    background-size: cover;
+    background-attachment: fixed;
+    background-color: #a9a9a9;
+    background-blend-mode: multiply;
+}
+
+.h3-pocetna {
+    text-decoration: none;
+    margin: 0px;
+    padding: 40px;
+    color: #F3F3F4;
+    font-size: 100px;
+    font-family: 'Montserrat' 'sans-serif';
+}
+
+.paneli-parent {
+    display: flex;
+}
+
+.panel-levo-desno {
+    width: 19vw;
+}
+
+.panel-centar {
+    width: 62vw;
+    height: 100vh;
+}
+
+#panel-levo-1 {
+    border-top-right-radius: 70%;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.07) inset;
+}
+
+#panel-levo-2 {
+    border-bottom-right-radius: 70%;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.07) inset;
+}
+
+#panel-desno-2-gore {
+    height: 0%;
+}
+
+#panel-desno-2-dole {
+    height: 100%;
+    border-radius: 20% / 40% 0% 0%;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.07) inset;
+}
+
+#panel-desno-1 {
+    border-bottom-left-radius: 100%;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.07) inset;
+}
+    
+#panel-desno-3 {
+    border-bottom-left-radius: 100%;
+    box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.07) inset;
+}
+
+#futer {
+    margin: 0px 19vw;
+    display: flex;
+}
+
+.razmak-inf-futer {
+    margin: 0px 5%;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.2);
+    height: 30px;
+    width: 10px;
+    border-radius: 50%;
+}
+
