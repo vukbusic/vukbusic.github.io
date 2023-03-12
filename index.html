@@ -2,7 +2,7 @@
 <html>
     <head>
         <title>Početna - Teniski Klub Modern</title>
-        <meta charset="utf-8"/>
+        <meta charset="UTF-8"/>
         <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
         <link rel="icon" type="text/x-icon" href="favicon.ico"/>
         <!--font-montserrat-->
@@ -11,23 +11,28 @@
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300&display=swap" rel="stylesheet"/>
         <!--material-icons-->
         <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet"/>
+        <!--awesome-icons-->
+        <link rel="stylesheet" href="https://kit.fontawesome.com/2de0d133a3.css" crossorigin="anonymous"/>
     <body>
         <header>
             <div class="panel-meni"></div>
             <div id="meni"> 
                 <div id="gore">
                     <!--Lokacija-->
-                    <div class="osnovneInformacije lokacija-kontakt" id="lokacija">
+                    <div class="osnovne-informacije informacije-centriranje informacije-levo">
                         <span class="material-icons">place</span>
-                        <span id="adresa">Vuka Bušića 170</span>
+                        <span class="tekst-ikonice">Vuka Bušića 170</span>
                     <!--Logo-->
                     </div>
-                    <div class="osnovneInformacije logo"><a href="index.html"><img src="assets/img/logo-tenis.png" alt="Logo"></a>
+                    <div class="osnovne-informacije logo">
+                        <a href="index.html">
+                            <img src="assets/img/logo-tenis.png" alt="Logo">
+                        </a>
                         <a href="index.html"><h1>TENNIS CLUB / MODERN</h1></a>
                         <a href="index.html"><h2>SINCE / 2023</h2></a>
                     </div>
                     <!--Kontakt-->
-                    <div class="osnovneInformacije lokacija-kontakt" id="kontakt">
+                    <div class="osnovne-informacije informacije-centriranje informacije-desno">
                         <a href="tel:381-5459-4511-324">+381 Vuk 170 22</a>
                         <span class="material-icons">call</span>
                     </div>
@@ -36,12 +41,22 @@
                 <div id="dole">
                     <!--Navigacioni-meni-->
                     <nav id="dole-meni">
-                        <ul id="navigacioniMeni">
-                            <li class="navigacija"><a href="index.html">Početna</a></li>
-                            <li class="navigacija"><a href="#">Tereni</a></li>
-                            <li class="navigacija"><a href="#">Cenovnik</a></li>
-                            <li class="navigacija"><a href="#">Lokacija</a></li>
-                            <li class="navigacija"><a href="#">O autoru</a></li>
+                        <ul class="linkovi-nav-meni">
+                            <li class="navigacija">
+                                <a href="index.html">Početna</a>
+                            </li>
+                            <li class="navigacija">
+                                <a href="#">Tereni</a>
+                            </li>
+                            <li class="navigacija">
+                                <a href="#">Cenovnik</a>
+                            </li>
+                            <li class="navigacija">
+                                <a href="#">Lokacija</a>
+                            </li>
+                            <li class="navigacija">
+                                <a href="#">O autoru</a>
+                            </li>
                         </ul>
                     </nav>
                 </div>
@@ -92,10 +107,39 @@
             </div>
         </main>
         <!--futer-->
-        <footer id="futer">
-            <div class="osnovneInformacije logo"><a href="index.html"><img src="assets/img/logo-tenis.png" alt="Logo"></a>
-                <a href="index.html"><h1>TENNIS CLUB / MODERN</h1></a>
-                <a href="index.html"><h2>SINCE / 2023</h2></a>
+        <footer>
+            <div id="futer">
+                <!--Socijalne-mreze-->
+                <div class="osnovne-informacije informacije-centriranje informacije-levo linkovi-nav-meni">
+                    <a href="http://facebook.com" target="_blank">
+                        <span class="material-icons" id="facebook">facebook</span>
+                        <span class="tekst-ikonice">Facebook</span>
+                    </a>
+                    <span class="razmak-inf-futer"></span>
+                    <a href="http://tiktok.com" target="_blank">
+                        <span class="material-icons" id="tiktok">tiktok</span>
+                        <span class="tekst-ikonice">Tiktok</span>
+                    </a>
+                <!--Logo-futer-->
+                </div>
+                <div class="osnovne-informacije logo">
+                    <a href="#">
+                        <img src="assets/img/logo-tenis.png" alt="Logo"></a>
+                    <a href="#"><h1>TENNIS CLUB / MODERN</h1></a>
+                    <a href="#"><h2>SINCE / 2023</h2></a>
+                </div>
+                <!--Rss-feed-i-Site-map-->
+                <div class="osnovne-informacije informacije-centriranje informacije-desno linkovi-nav-meni">
+                    <a href="xml/rss.xml" target="_blank">
+                        <span class="tekst-ikonice">Rss</span>
+                        <span class="material-icons">rss_feed</span>
+                    </a>
+                    <span class="razmak-inf-futer"></span>
+                    <a href="xml/sitemap.xml" target="_blank">
+                        <span class="tekst-ikonice">Sitemap</span>
+                        <span class="material-icons">share</span>
+                </div>
+                <div id="cleaner"></div>
             </div>
         </footer>
     </body>
