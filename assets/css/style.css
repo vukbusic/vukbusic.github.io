@@ -37,32 +37,19 @@ main {
     z-index: -1;
 }
 
-#heder-tereni {
+#heder-pocetna {
     box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.07);
-    border-bottom-left-radius: 50%;
-    border-bottom-right-radius: 20%;
 }
 
-#heder-cenovnik {
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.07);
-    border-bottom-right-radius: 60%;
-    border-bottom-left-radius: 30%;
-}
-
-#heder-lokacija {
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.07);
-    border-bottom-right-radius: 10%;
-    border-bottom-left-radius: 60%;
-}
-
-#heder-o-autoru {
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.07);
-    border-bottom-left-radius: 20%;
-    border-bottom-right-radius: 40%;
+#heder-senka {
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.07);
+    border-bottom-left-radius: 100%;
+    border-bottom-right-radius: 100%;
 }
 
 .panel-meni {
     width: 19vw;
+    background-color: var(--bela);
 }
 
 #gore {
@@ -79,6 +66,10 @@ main {
     display: table;
     margin: auto;
     padding:  0px;
+}
+
+#dole {
+    background-color: var(--bela);
 }
 
 ul {
@@ -163,10 +154,11 @@ ul {
 .slika-pozadina {
     text-align: center;
     background: url(../images/clay-court.jpg);
-    background-size: cover;
     background-attachment: fixed;
+    background-size: cover;
     background-color: var(--siva);
     background-blend-mode: multiply;
+    filter: saturate(1.05);
     box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.4) inset;
 }
 
@@ -212,13 +204,6 @@ ul {
 .animacija-paneli {
     animation: paneli;
     animation-duration: 4s;
-    animation-fill-mode: forwards;
-}
-
-.animacija-heder-futer {
-    animation: panei;
-    animation-duration: 1s;
-    animation-delay: 200ms;
     animation-fill-mode: forwards;
 }
 
