@@ -162,6 +162,10 @@ ul {
     box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.4) inset;
 }
 
+#mapa-lokacija {
+    margin-top: 50%;
+}
+
 .h3-pocetna {
     text-decoration: none;
     margin: 0px;
