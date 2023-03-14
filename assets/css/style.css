@@ -30,15 +30,18 @@ header {
     display: flex;
     position: sticky;
     top: -157px;
-    z-index: 1;
+    z-index: 5;
 }
 
 main {
     z-index: -1;
+    animation: paneli;
+    animation-duration: 1s;
+    animation-fill-mode: forwards;
 }
 
 #heder-pocetna {
-    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.07);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.13);
 }
 
 #heder-senka {
@@ -225,6 +228,81 @@ ul {
     }
 }
 
+.okvir-parent {
+    position: absolute;
+}
+
+.okvir {
+    position: relative;
+    width: 430px;
+    height: 280px;
+    border-radius: 4px;
+    z-index: -1;
+}
+
+#okvir-1 {
+    top: 55px;
+    left: 400px;
+    border: 5px solid var(--nar);
+}
+
+#okvir-2 {
+    top: 340px;
+    left: 560px;
+    border: 5px solid var(--nar);
+}
+
+#okvir-3 {
+    bottom: 555px;
+    left: 360px;
+    border: 2px solid var(--crna);
+    z-index: -2;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+#okvir-4 {
+    bottom: 300px;
+    left: 590px;
+    border: 2px solid var(--crna);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1) inset;
+}
+
+.panel-1-slika {
+    width: 50%;
+}
+
+.panel-1-slika img {
+    height: 15%;
+    display: block;
+    border-radius: 4px;
+    transition: 500ms;
+    border: 0px solid var(--siva);
+    z-index: 1;
+}
+
+#slika-1 {
+    margin: 15% 0% 20% 15%;
+}
+
+#slika-2 {
+    margin: 15% 0% 0% 45%;
+}
+
+.slika-main:hover {
+    border: 20px solid transparent;
+}
+
+#panel-1-text {
+    width: 70%;
+    height: 100%;
+    text-align: center;
+    margin: 15% 5% 15% 0px;
+    backdrop-filter: blur(5px);
+    border-bottom: 2px solid var(--nar);
+    border-radius: 3px;
+    z-index: 2;
+}
+
 .panel-levo-desno {
     width: 19vw;
 }
@@ -232,6 +310,11 @@ ul {
 .panel-centar {
     width: 62vw;
     height: 100vh;
+}
+
+#panel-1-flex {
+    display: flex;
+    width: 100%;
 }
 
 #panel-levo-1 {
@@ -274,4 +357,3 @@ footer {
     width: 10px;
     border-radius: 50%;
 }
-
