@@ -75,12 +75,12 @@
                 <div class="paneli-parent">
                     <div class="panel-levo-desno animacija-paneli" id="panel-levo-1"></div>
                     <div class="panel-centar">
-                        <div id="panel-1-flex">
+                        <div class="panel-1-flex">
                             <div class="panel-1-slika">
                                 <img class="slika-main" id="slika-1" src="assets/images/panel1.1.jpg" alt="slika-1">
                                 <img class="slika-main" id="slika-2" src="assets/images/panel1.2.jpg" alt="slika-1">
                             </div>
-                            <div id="panel-1-text"><p>
+                            <div class="panel-text" id="panel-1-tekst"><p>
                                 <strong>Premium</strong>
                                 teniski klub svetskih standarda pruža redefinisani osećaj igranja tenisa.
                                 <br/>
@@ -91,7 +91,8 @@
                                 <br/>
                                 <br/>
                                 <strong>"Tenis nije samo sport"</strong>
-                            </p></div>
+                                </p>
+                            </div>
                             <div class="cleaner"></div>
                         </div>
                     </div>
@@ -112,7 +113,73 @@
                 </div>
                 <div class="paneli-parent">
                     <div class="panel-levo-desno animacija-paneli" id="panel-levo-2"></div>
-                    <div class="panel-centar"></div>
+                    <div class="panel-centar">
+                        <div class="panel-1-flex">
+                            <div class="panel-text" id="panel-2-tekst">
+                                <p>
+                                    <strong>Modern </strong>se nalazi na Novom Beogradu
+                                    u prepoznatljivoj ulici <a href="lokacija.html">Vuka Bušića 170.</a>
+                                    <br/>
+                                    <br/>
+                                    Klub nudi vrhunske terene sa <strong>šljakom</strong> radi autentičnog osećaja igranja tenisa,
+                                    pored terena klub nudi i <a href="cenovnik.html">članstvo</a> koje otvara pun potencijal kluba.
+                                </p>
+                            </div>
+                            <div class="panel-text" id="panel-3-tekst">
+                                <p class="linkovi-nav-meni">
+                                    Klub ima tri terena i balone koji se greju <strong>24</strong> sata dnevno.
+                                    <br/>
+                                    <br/>
+                                    Temperatura u balonima je uvek <strong>idealna</strong> i čak pri naglim promenama vremena
+                                    zimski period je potpuno isti kao i letnji. 
+                                </p>
+                            </div>
+                            <div class="cleaner"></div>
+                        </div>
+                        <div id="slicice">
+                            <div id="slicice-perent">
+                                <div class="clanstvo-slicice">
+                                    <div class="slicice-opis">
+                                        <p>Treninzi bivših <strong>ATP</strong> tenisera će pomeriti vase granice dovesti vas na vrh.</p>                          
+                                    </div>
+                                    <div class="male-slicice">
+                                        <span class="material-icons">people</span>
+                                        <p><strong>Vođeni treninzi</strong></p>                          
+                                    </div>
+                                </div>
+                                <div class="clanstvo-slicice">
+                                    <div class="slicice-opis">
+                                        <p>Oprobajte se u <strong>Ligi</strong> pravljenoj po švajcarskom sistemu </p>
+                                    </div>
+                                    <div class="male-slicice">
+                                        <span class="material-icons">emoji_events</span>
+                                        <p><strong>Liga</strong></p>
+                                    </div>
+                                </div>
+                                <div class="clanstvo-slicice">
+                                    <div class="slicice-opis">
+                                        <p>Zakažite <strong>sezonske termine</strong> u periodu od 6 meseci</p>
+                                    </div>
+                                    <div class="male-slicice">
+                                        <span class="material-icons">event</span>
+                                        <p><strong>Sezonski termini</strong> </p>
+                                    </div>
+                                </div>
+                                <div class="clanstvo-slicice">
+                                    <div class="slicice-opis">
+                                        <p>Španovanje reketa - žice od <strong>prirodnog</strong> creva</p>
+                                    </div>
+                                    <div class="male-slicice">
+                                        <span class="material-icons">sports_tennis</span>
+                                        <p><strong>Španovanje</strong></p>
+                                    </div>
+                                </div>
+                                <div id="slicice-dole"></div>
+                                <div class="cleaner"></div>
+                            </div>
+                            <div id="slicice-dole"></div>
+                        </div>
+                    </div>
                     <div class="panel-levo-desno animacija-paneli" id="panel-desno-2"></div>
                     <div class="cleaner"></div>
                 </div>
@@ -124,7 +191,49 @@
                 </div>
                 <div class="paneli-parent">
                     <div class="panel-levo-desno"></div>
-                    <div class="panel-centar"></div>
+                    <div class="panel-centar">
+                        <div id="forma">
+                            <div id="form">
+                                <h3>Prijava</h3>
+                                <form action="obrada.php" method="get">
+                                    <div class="align2 mrb">
+                                        <div class="width">
+                                            <label for="first-name">Ime: <span class="red">*</span></label>
+                                            <input type="text" id="first-name" name="first-name" required="required" placeholder="Ana"/>
+                                        </div>
+                                        <div class="width">
+                                            <label for="last-name">Prezime: <span class="red">*</span></label>
+                                            <input type="text" id="last-name" name="last-name" required="required" placeholder="Gajić"/> 
+                                        </div>
+                                    </div>
+                                    <div class="form-center">
+                                        <label for="email">E-mail: <span class="red">*</span></label>
+                                        <input type="text" id="email" name="email" required="required" placeholder="ana_gajic12@gmail.com"/>
+                                    </div>
+                                    <div class="form-center">
+                                        <label for="phone">Telefon: <span class="red">*</span></label>
+                                        <input type="text" id="phone" name="phone" placeholder="+381 61 234 5678" required="required"/>
+                                    </div>
+                                    <div class="align mrb">
+                                        <div class="align items-center">
+                                            <p>Pol:</p>
+                                            
+                                            <input type="radio" id="male" name="rdb" />
+                                            <label for="musko">M</label>
+                                            <input type="radio" id="female" name="rdb" />
+                                            <label for="zensko">Ž</label>
+                                        </div>
+                                        <div>
+                                            <label for="date">Datum rođenja:</label>
+                                            <input type="date" id="date" name="date"  />
+                                        </div>
+                                    </div>
+                                    
+                                        <input type="submit" id="submit" name="submit" value="Pošalji"/>
+                                    
+                                </form>
+                        </div>
+                    </div>
                     <div class="panel-levo-desno animacija-paneli panel-desno-1-3"></div>
                     <div class="cleaner"></div>
                 </div>
