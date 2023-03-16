@@ -472,14 +472,34 @@ ul {
     border: 20px solid transparent;
 }
 
-#o-autoru img {
+#crno {
+    background-color: var(--crna);
+    width: 20%;
+    height: 70%;
     position: relative;
+    z-index: -1;
+    left: 10%;
+    border-left: 10px solid var(--nar);
+}
+
+#o-autoru {
+    position: absolute;
+}
+
+#o-autoru img {
     height: 400px;
-    transition: 400ms;
+    transition: 700ms;
+    display: flex;
+    position: relative;
 }
 
 #o-autoru img:hover {
-    filter: blur(1px) grayscale(20%);
+    filter: blur(2px);
+}
+
+#donja-slika {
+    top: 100px;
+    left: 200px;
 }
 
 .panel-text {
