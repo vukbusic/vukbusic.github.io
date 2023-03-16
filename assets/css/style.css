@@ -18,7 +18,7 @@ html {
 :root {
     --bela: #F3F3F4;
     --crna: #14110F;
-    --nar: #c78800;
+    --nar: #8f4c00;
     --siva: #A9A9A9;
     --bledo-siva: #ebebeb;
 }
@@ -249,8 +249,53 @@ ul {
     background-color: var(--nar);
 }
 
+#lokacija-centar {
+    background-color: var(--bledo-siva);
+    border-bottom: 2px solid var(--nar);
+    height: 80%;
+}
+
 #mapa-lokacija {
-    margin-top: 50%;
+    position: relative;
+    top: 0;
+    width: 300px;
+    height: 900px;
+    border-left: 10px solid var(--crna);
+}
+
+#lokacija-sadrzaj-1 {
+    position: relative;
+    bottom: 50%;
+    left: 20%;
+    width: 70%;
+    height: 20%;
+    background-color: var(--crna);
+}
+
+#lokacija-sadrzaj-2 {
+    position: relative;
+    bottom: 130%;
+    left: 30%;
+    width: 50%;
+    height: 70%;
+    background-color: var(--bela);
+    border-top: 2px solid var(--nar);
+    opacity: 80%;
+    text-align: center;
+    font-size: 16px;
+}
+
+#lokacija-sadrzaj-2 h3 {
+    padding-top: 50px;
+}
+
+#lokacija-sadrzaj-2 p{
+    margin: 2px;
+}
+
+#lokacija-sadrzaj-2 a{
+    margin: 2px;
+    color: var(--crna);
 }
 
 .h3-pocetna {
@@ -513,6 +558,7 @@ ul {
     height: 60%;
     width: 60%;
     background-color: var(--nar);
+    color: var(--bledo-siva);
     text-align: center;
 }
 
