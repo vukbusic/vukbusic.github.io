@@ -207,12 +207,17 @@ ul {
 }
 
 #email {
-    border: 2px solid var(--bela);
-    background-color: var(--crna);
-    color: var(--bela);
-    border-radius: 5px;
+    width: 80%;
+    height: 4%;
     font-size: 20px;
+    font-weight: bold;
     font-family: 'Montserrat';
+    text-align: center;
+    border: none;
+    border-bottom: 4px dotted var(--bela);
+    background: var(--crna);
+    outline: none;
+    color: var(--bela);
 }
 
 .p-tekst {
@@ -229,8 +234,13 @@ ul {
     text-align: center;
 }
 
-#cenovnik-desno-p{
+#cenovnik-desno-p {
     margin-top: 40%;
+}
+
+#cenovnik-desno p {
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 #cenovnik-desno-2 {
