@@ -472,6 +472,16 @@ ul {
     border: 20px solid transparent;
 }
 
+#o-autoru img {
+    position: relative;
+    height: 400px;
+    transition: 400ms;
+}
+
+#o-autoru img:hover {
+    filter: blur(1px) grayscale(20%);
+}
+
 .panel-text {
     height: 100%;
     width: 50%;
