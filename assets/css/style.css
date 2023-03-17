@@ -206,7 +206,7 @@ ul {
     margin-left: 20%;
 }
 
-#email {
+.email {
     width: 80%;
     height: 4%;
     font-size: 20px;
@@ -218,6 +218,7 @@ ul {
     background: var(--crna);
     outline: none;
     color: var(--bela);
+    z-index: 1;
 }
 
 .p-tekst {
@@ -540,6 +541,72 @@ ul {
     display: flex;
     height: auto;
     width: 100%;
+}
+
+#forma {
+    background-color: var(--crna);
+    height: 50%;
+    border-top: 20px solid var(--nar);
+    border-bottom: 20px solid var(--nar);
+    margin-top: 6%;
+    text-align: center;
+}
+
+#forma-naslov h3    {
+    text-align: center;
+    font-size: 50px;
+    background-color: var(--bledo-siva);
+    border-left: 10px solid var(--crna);
+    border-right: 10px solid var(--crna);
+}
+
+.forma-pocetna {
+    width: 40%;
+    height: 4%;
+    font-size: 16px;
+    font-family: 'Montserrat';
+    border: none;
+    border-bottom: 2px solid var(--bela);
+    background: var(--crna);
+    outline: none;
+    color: var(--bela);
+    z-index: 1;
+    text-align: center;
+}
+
+.margina-forma {
+    margin-top: 40px;
+    display: block;
+}
+
+#radio-i-submit {
+    display: flex;
+    width: 50%;
+    background-color: #ebebeb;
+    margin: 5% 25%;
+}
+
+#radio {
+    flex-grow: 1;
+    flex-basis: 400px;
+}
+
+#submit {
+    flex-grow: 1;
+    width: 160px;
+    height: 70px;
+    font-size: 30px;
+    border: 3px solid var(--nar);
+    background-color: var(--crna);
+    border-radius: 5px;
+}
+
+#ispod-futera {
+    background: url(../images/iznad-futera.jpg);
+    background-size: cover;
+    height: 150px;
+    margin-top: 6%;
+    border-bottom: 40px solid var(--crna);
 }
 
 #slicice {

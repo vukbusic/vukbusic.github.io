@@ -122,7 +122,7 @@
                                     <br/>
                                     <br/>
                                     Klub nudi vrhunske terene sa <strong>šljakom</strong> radi autentičnog osećaja igranja tenisa,
-                                    pored terena klub nudi i članstvo koje otvara pun potencijal kluba.
+                                    pored terena <strong>Modern</strong> nudi i članstvo koje otvara pun potencijal kluba.
                                 </p>
                             </div>
                             <div class="panel-text" id="panel-3-tekst">
@@ -192,50 +192,40 @@
                 <div class="paneli-parent">
                     <div class="panel-levo-desno"></div>
                     <div class="panel-centar">
-                        <div id="forma">
-                            <div id="form">
-                                <h3>Prijava</h3>
-                                <form action="obrada.php" method="get">
-                                    <div class="align2 mrb">
-                                        <div class="width">
-                                            <label for="first-name">Ime: <span class="red">*</span></label>
-                                            <input type="text" id="first-name" name="first-name" required="required" placeholder="Ana"/>
-                                        </div>
-                                        <div class="width">
-                                            <label for="last-name">Prezime: <span class="red">*</span></label>
-                                            <input type="text" id="last-name" name="last-name" required="required" placeholder="Gajić"/> 
-                                        </div>
-                                    </div>
-                                    <div class="form-center">
-                                        <label for="email">E-mail: <span class="red">*</span></label>
-                                        <input type="text" id="email" name="email" required="required" placeholder="ana_gajic12@gmail.com"/>
-                                    </div>
-                                    <div class="form-center">
-                                        <label for="phone">Telefon: <span class="red">*</span></label>
-                                        <input type="text" id="phone" name="phone" placeholder="+381 61 234 5678" required="required"/>
-                                    </div>
-                                    <div class="align mrb">
-                                        <div class="align items-center">
-                                            <p>Pol:</p>
-                                            
-                                            <input type="radio" id="male" name="rdb" />
-                                            <label for="musko">M</label>
-                                            <input type="radio" id="female" name="rdb" />
-                                            <label for="zensko">Ž</label>
-                                        </div>
-                                        <div>
-                                            <label for="date">Datum rođenja:</label>
-                                            <input type="date" id="date" name="date"  />
-                                        </div>
-                                    </div>
-                                    
-                                        <input type="submit" id="submit" name="submit" value="Pošalji"/>
-                                    
-                                </form>
+                        <div id="forma-naslov">
+                            <h3>Postanite Član</h3>
                         </div>
+                        <div id="forma">
+                            <form action="#" method="get" id="forma-perent">
+                                <div class="margina-forma">
+                                    <input type="text" class="forma-pocetna" name="ime" required="required" placeholder="IME"/>
+                                </div>
+                                <div class="margina-forma">
+                                    <input type="text" class="forma-pocetna" name="prezime" required="required" placeholder="PREZIME"/>
+                                </div>
+                                <div class="margina-forma">
+                                    <input type="text" class="forma-pocetna" name="email" required="required" placeholder="E-MAIL"/>
+                                </div>
+                                <div class="margina-forma">
+                                    <input type="text" class="forma-pocetna" name="telefon" required="required" placeholder="TELEFON"/>
+                                </div>
+                                <div id="radio-i-submit">
+                                    <div id="radio">                                          
+                                        <input type="radio" class="radio-dugme" name="radiodugme"/>
+                                        <label for="musko"></label>
+                                        <input type="radio" class="radio-dugme" name="radio-dugme"/>
+                                        <label for="zensko"></label>
+                                    </div>
+                                    <input type="submit" id="submit" name="submit" value=""/>
+                                    <div class="cleaner"></div>
+                                </div>                                                
+                            </form>
+                        </div>
+                        <div id="ispod-futera">s</div>
                     </div>
                     <div class="panel-levo-desno animacija-paneli panel-desno-1-3"></div>
                     <div class="cleaner"></div>
+                    </div>
                 </div>
             </div>
         </main>
