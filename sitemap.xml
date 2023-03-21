@@ -2,35 +2,35 @@
 <urlset xmlns="http://sitemap.org/schemas/sitemap/0.9">
 <url>
     <loc>https://vukbusic.github.io</loc>
-    <lastmod>2023-03-20</lastmod>
+    <lastmod>2023-03-21</lastmod>
     <changefreq>daily</changefreq>
     <priority>1</priority>
 </url>
 
 <url>
     <loc>https://vukbusic.github.io/tereni.html</loc>
-    <lastmod>2023-03-20</lastmod>
+    <lastmod>2023-03-21</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.9</priority>
 </url>
 
 <url>
     <loc>https://vukbusic.github.io/cenovnik.html</loc>
-    <lastmod>2023-03-20</lastmod>
+    <lastmod>2023-03-21</lastmod>
     <changefreq>monthly</changefreq>
     <priority>0.8</priority>
 </url>
 
 <url>
     <loc>https://vukbusic.github.io/lokacija.html</loc>
-    <lastmod>2023-03-20</lastmod>
+    <lastmod>2023-03-21</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.8</priority>
 </url>
 
 <url>
     <loc>https://vukbusic.github.io/oautoru.html</loc>
-    <lastmod>2023-03-20</lastmod>
+    <lastmod>2023-03-21</lastmod>
     <changefreq>yearly</changefreq>
     <priority>0.2</priority>
 </url>
